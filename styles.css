@@ -698,6 +698,23 @@ footer a {
         grid-column: 2 / 3;
     }
     #intro img:first-child {
+        margin-left: 500%;
+        width: 22vw;
+        height: auto;
+        margin-top: 50%;
+    }
+    #intro img:nth-child(2) {
+        margin-left: 730%;
+        width: 22vw;
+        height: auto;
+        margin-top: -300px;
+    }
+    #intro img:last-child {
+        margin-left: 500%;
+        width: 45vw;
+        margin-top: -10px;
+    }
+    #intro img:first-child {
         grid-row: 1 / span 2;
         grid-column: 3 / 4;
     }
@@ -715,9 +732,83 @@ footer a {
     #main-content p {
         font-size: 1em;
     }
-    #img-grid {
-        grid-column: 2 / 3;
-        grid-row: 1 / 4;
+    #plan {
+        margin-top: -150px;
     }
-
+    #plan div {
+        display: grid;
+        grid-template-columns: 10% 20% 20% 20% 20% 10%;
+        grid-auto-flow: row;
+        grid-gap: 5px;
+        justify-self: stretch;
+        padding-bottom: 20px;
+    }
+    #plan section {
+        width: auto;
+        height: auto;
+    }
+    #plan section:first-child {
+        grid-column-start: 2;
+    }
+    #plan h4 {
+        font-size: 1em;
+    }
+    #testimonials div {
+        display: grid;
+        grid-template-columns: 10% 20% 20% 20% 20% 10%;
+        grid-auto-flow: row;
+        grid-gap: 5px;
+        align-self: stretch;
+        padding-bottom: 20px;
+    }
+    #plan section {
+        width: auto;
+        height: auto;
+    }
+    #testimonials section:first-child {
+        grid-column-start: 2;
+    }
+    #testimonials h4 {
+        font-size: 1em;
+    }
+    #testimonials section {
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+    #testimonials q {
+        font-size: 0.8em;
+    }
+    #about div {
+        display: grid;
+        grid-template-columns: 10% 20% 20% 20% 20% 10%;
+        grid-auto-flow: row;
+        grid-gap: 5px;
+        align-self: stretch;
+        padding-bottom: 20px;   
+        margin-left: 0;
+        margin-right: 0;
+        width: 100vw;
+    }
+    #about section {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-auto-flow: row;
+    }
+    #about section:nth-child(3) {
+        margin-left: 230%;
+    }
+    #about section:nth-child(4) {
+        margin-left: 230%;
+    }
+    #contact form {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+    .mySubmit {
+        width: 100px;
+    }
+    footer {
+        display: inline-block;
+        width: 100vw;
+    }
 }
