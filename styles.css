@@ -761,6 +761,10 @@ footer a {
         align-self: stretch;
         padding-bottom: 20px;
     }
+    #testimonials h4 {
+        font-size: clamp(0.8em, 1.8em, 11.8em);
+        white-space: pre;
+    }
     #plan section {
         width: auto;
         height: auto;
